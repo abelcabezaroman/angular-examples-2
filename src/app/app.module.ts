@@ -8,6 +8,9 @@ import { ButtonComponent } from './button/button.component';
 import { ListComponent } from './list/list.component';
 import { FormComponent } from './form/form.component';
 import { FormsModule } from '@angular/forms';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ItemGalleryComponent } from './item-gallery/item-gallery.component';
+import { FormGalleryComponent } from './form-gallery/form-gallery.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { FormsModule } from '@angular/forms';
     XyzComponent,
     ButtonComponent,
     ListComponent,
-    FormComponent
+    FormComponent,
+    GalleryComponent,
+    ItemGalleryComponent,
+    FormGalleryComponent
   ],
   imports: [
     FormsModule,
