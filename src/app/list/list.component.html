@@ -1,0 +1,4 @@
+<ul>
+  <li *ngFor="let item of list">{{item}}
+    <app-button [title]="'Eliminar'" (buttonClicked)="mostrarAlert($event)"></app-button></li>
+</ul>
