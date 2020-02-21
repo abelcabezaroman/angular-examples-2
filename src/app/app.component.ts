@@ -11,17 +11,17 @@ export class AppComponent {
   list = ['Lista 1', 'Lista 2', 'Lista 3'];
 
   galleryList = [{
-    img: 'https://picsum.photos/200/300',
+    img: 'https://picsum.photos/id/3/200/300',
     title: 'Gatito',
-    decription: 'Soy un gatito'
+    description: 'Soy un gatito'
   },{
-    img: 'https://picsum.photos/200/300',
-    title: 'Gatito',
-    decription: 'Soy un gatito'
+    img: 'https://picsum.photos/id/2/200/300',
+    title: 'Gatito 2',
+    description: 'Soy un gatito'
 },{
-  img: 'https://picsum.photos/200/300',
-    title: 'Gatito',
-    decription: 'Soy un gatito'
+  img: 'https://picsum.photos/id/1/200/300',
+    title: 'Gatito 3',
+    description: 'Soy un gatito'
 }];
 
   mostrarAlert($event){
