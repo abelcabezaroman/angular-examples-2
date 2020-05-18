@@ -11,6 +11,10 @@ import { FormsModule } from '@angular/forms';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ItemGalleryComponent } from './item-gallery/item-gallery.component';
 import { FormGalleryComponent } from './form-gallery/form-gallery.component';
+import { PersonsComponent } from './exercise-3/persons/persons.component';
+import { PersonComponent } from './exercise-3/person/person.component';
+import { ListPageComponent } from './pages/list-page/list-page.component';
+import { PersonsPageComponent } from './pages/persons-page/persons-page.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { FormGalleryComponent } from './form-gallery/form-gallery.component';
     FormComponent,
     GalleryComponent,
     ItemGalleryComponent,
-    FormGalleryComponent
+    FormGalleryComponent,
+    PersonsComponent,
+    PersonComponent,
+    ListPageComponent,
+    PersonsPageComponent
   ],
   imports: [
     FormsModule,

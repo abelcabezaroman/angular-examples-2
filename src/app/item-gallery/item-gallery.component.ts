@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ItemGalleryComponent implements OnInit {
 
-  @Input() item: object;
+  @Input() item;
 
   constructor() { }
 

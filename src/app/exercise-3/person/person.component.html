@@ -1,0 +1,7 @@
+<div *ngIf="person.activated"><h3>{{person.name}} {{person.surname}}</h3>
+
+<p>Sexo: {{person.sex}}</p>
+<p>
+  Skills: <span *ngFor="let skill of person.skills">{{skill}}</span>
+</p>
+</div>
